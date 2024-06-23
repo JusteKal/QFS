@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.3), rgba(198,198,198,0.3), rgba(157,157,157,0.3)), url(../img/wallpaper.png);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Minecraft", sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0; 
+    padding: 0; 
+}
+
+ul img {
+    width: 16rem;
+    height: 100%; 
+}
+
+header nav li {
+    padding: 0 90px 0 90px;
+    font-weight: 600;
+}
+
+header nav li a {
+    color: #fcf3ca;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    align-items: center; 
+    padding: 10px;
+}
+
+header nav li a:hover {
+    color:#f8d01b;
+    background-color: rgba(111,62,45,255);
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Main */
+
+main{
+    text-align: center;
+    color: #f8d01b;
+    text-shadow: 1px 1px rgba(111,62,45,255);
+}
+
+main article{
+    margin: 25px;
+}
+
+/* Footer */
+
+footer{
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer p{
+    color: #f8d01b;
+    text-shadow: 1px 1px rgba(111,62,45,255);
+    font-size: 1.3rem;
+}
