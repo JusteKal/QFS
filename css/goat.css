@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color: #f8d01b;
+    text-shadow: 1px 1px rgba(111,62,45,1);
+}
+
+body{
+    display: block;
+}
+
+body #flexing img{
+    align-items: center;
+    height: 100%;
+    width: 42%;
+}

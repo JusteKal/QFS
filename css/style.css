@@ -1,10 +1,9 @@
 body {
     background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.3), rgba(198,198,198,0.3), rgba(157,157,157,0.3)), url(../img/wallpaper.png);
-    background-position: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Minecraft", sans-serif;
-
 }
 
 header {
@@ -31,12 +30,15 @@ header nav li {
 }
 
 header nav li a {
-    color: #fcf3ca;
+    color: #fce88f;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.8rem;
     align-items: center; 
     padding: 10px;
+    border: 1px solid;
+    background-color: rgba(111,62,45,.4);
+    border-radius: 10px;
 }
 
 header nav li a:hover {
@@ -51,22 +53,71 @@ header nav li a:hover {
 main{
     text-align: center;
     color: #f8d01b;
-    text-shadow: 1px 1px rgba(111,62,45,255);
+    text-shadow: 1px 1px rgba(111,62,45,1);
+}
+
+main h1{
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 10px 0 10px 0
+}
+
+#flexing{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    padding: 10px 0 50px 0;
 }
 
 main article{
-    margin: 25px;
+    margin: 10px;
+    border: 1px solid #f8d01b !important;
+    background: rgba(111,62,45,.4);
+    text-align: center;
+    padding: 0 45px;
+}
+
+#flexing article{
+    width: 27%;
+}
+
+main article img{
+    width: 500px;
+    transition: transform .1s;
+    width: 100%;
+    border-radius: 5px;
+}
+
+main article img:hover{
+    transform: scale(1.1);
+    }
+
+#info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 10px 0;
+}
+
+#info a{
+    text-decoration: none;
+    color:#10245a;
 }
 
 /* Footer */
 
 footer{
     text-align: center;
-    padding-top: 40px;
+    margin-top: 10rem;
 }
 
 footer p{
     color: #f8d01b;
     text-shadow: 1px 1px rgba(111,62,45,255);
     font-size: 1.3rem;
+}
+
+footer a{
+    text-decoration: none;
+    color:#f8d01b;
 }
