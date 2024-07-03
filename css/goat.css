@@ -1,15 +1,22 @@
+body{
+    display: block;
+}
+
 h1{
     text-align: center;
     color: #f8d01b;
     text-shadow: 1px 1px rgba(111,62,45,1);
-}
-
-body{
-    display: block;
+    border: 1px solid #f8d01b;
+    border-radius: 10px;
+    background-color: rgba(111,62,45,2);
+    width: 25%;
+    margin: auto;
 }
 
 body #flexing img{
     align-items: center;
     height: 100%;
-    width: 42%;
+    width: 44.1%;
+    border: 2px solid #f8d01b;
+    border-radius: 5px;
 }
