@@ -6,6 +6,10 @@ body {
     font-family: "Minecraft", sans-serif;
 }
 
+::-webkit-scrollbar {
+    display: none;
+  }
+
 header {
     display: flex;
     justify-content: center;
