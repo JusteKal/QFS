@@ -111,7 +111,7 @@ main article img:hover{
         text-align: center;
         padding: 0 20px;
         border-radius: 5px;
-        width: 100%; /* Added this line */
+        width: 100%; 
     }
 
     main article img{
@@ -121,7 +121,7 @@ main article img:hover{
     }
 
     #flexing article{
-        width: 80%; /* Modified this line */
+        width: 80%; 
     }
 
 }
